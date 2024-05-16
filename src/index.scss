@@ -93,7 +93,7 @@ body{
         content: '';
         position: absolute;
         left: -8rem;
-        margin-left: $linkWidth/2;
+        margin-left: calc($linkWidth / 2);
         bottom: -1.25rem;
         height: 0.5rem;
         width: 2px;
@@ -116,12 +116,12 @@ body{
         @for $j from 1 to $i {
           &:nth-child(#{$j}):hover{
             ~ li:last-child:before {
-              left: (100% / $i) * ($j - 1);
+              left: calc(100% / $i) * ($j - 1);
             }
           }
         }
         &:last-child:hover:before {
-          left: (100% / $i) * ($i - 1);
+          left: calc(100% / $i) * ($i - 1);
         }
       }
     }
@@ -133,7 +133,7 @@ body{
 
 
 $base-spacing-unit: 24px;
-$half-spacing-unit: $base-spacing-unit / 2;
+$half-spacing-unit: calc($base-spacing-unit / 2);
 
 $color-alpha: #00373d;
 $color-form-highlight: #EEEEEE;
