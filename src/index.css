@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 :root {
   --bg: #282c34;
   --header: #ffffff;
@@ -5,7 +8,7 @@
   --text: hsla(0, 0%, 100%, 0.88);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 
 *,
 *:after,
@@ -218,7 +221,6 @@ body {
   }
   
   /* Style for the input boxes to appear more like signature input */
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .signature-box input,
 .landlord-signature-box input,
